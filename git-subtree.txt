@@ -9,10 +9,11 @@ git-subtree - add, merge, and split subprojects stored in subtrees
 SYNOPSIS
 --------
 [verse]
-'git subtree' add   --prefix=<prefix> <commit>
-'git subtree' merge --prefix=<prefix> <commit>
+'git subtree' add   --prefix=<prefix> <refspec>
+'git subtree' merge --prefix=<prefix> <refspec>
 'git subtree' pull  --prefix=<prefix> <repository> <refspec...>
-'git subtree' split --prefix=<prefix> <commit...>
+'git subtree' push  --prefix=<prefix> <repository> <refspec...>
+'git subtree' split --prefix=<prefix> <refspec...>
          
 
 DESCRIPTION
