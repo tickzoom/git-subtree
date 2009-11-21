@@ -592,7 +592,6 @@ cmd_pull()
 
 cmd_push()
 {
-	ensure_clean
 	if [ $# -ne 2 ]; then
 	    die "You must provide <repository> <refspec>"
 	fi
